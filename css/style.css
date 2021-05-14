@@ -1,0 +1,174 @@
+body{
+    color: #cacee9;
+    background-color: #cacee9;
+    background-image: url("../images/pattern.svg");
+    padding: 0 7%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+a:hover {
+  color:rgb(252, 1, 97);
+}
+.pattern-background{
+    background-image: url("../images/pattern.svg");
+}
+.welcome-text{
+    margin: 50px 0;
+}
+.navbar{
+    padding: 0 50px;
+    text-align: left;
+}
+.my-logo{
+    color:rgb(252, 1, 97);
+    font-size: 2rem;
+}
+span{
+    color: rgb(252, 1, 97);
+    font-weight: bold;
+}
+/* Intro Section */
+@media (max-width:1028px){
+    #intro{
+        text-align: center;
+    }
+}
+/* #intro{
+    background-color: #141527;
+} */
+.fluid-container{
+    padding: 2% 50px;
+}
+.resize-container{
+    padding: 50px;
+}
+.phone{
+    width: 100%;
+    height: auto;
+}
+
+/* Skills section */
+/* #skills{
+    background-color: #1b1d32;
+} */
+.primary-color{
+    background-color: #141527;
+}
+.secondary-color{
+    background-color: #1b1d32;
+}
+.custom-row-style {
+    padding: 20px 0;
+    /* margin: 10px; */
+}
+
+.row-width{
+    /* width: 80%;
+    margin: auto; */
+}
+.col-text{
+    text-align: left;
+}
+.heading-text{
+    margin: 5px 0 50px;
+    color:rgb(252, 1, 97);
+    font-weight: 600;
+}
+.para-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* color: #cacee9; */
+}
+.skills-closing{
+    text-align: center;
+}
+.col-image{
+    width: 60%;
+}
+.skills-closing{
+    padding: 50px 0px;
+}
+
+/* buttons style */
+.custom-button{
+    background-color: rgb(252, 1, 97);
+    color:white;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    padding: 50px;
+}
+.footer p{
+    margin: 0;
+    padding: 0;
+}
+.footer i{
+    padding: 0 10px 15px;
+    font-size: 2rem;
+}
+
+/* Connect page */
+.about-us-container{
+    padding: 50px 100px;
+}
+.contact-card-images{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.card{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+.form-container{
+    width: 50%;
+    margin: auto;
+    padding: 50px 30px;
+}
+/* Project-showcase */
+.project-showcase{
+    text-align: center;
+}
+
+.works-image{
+    width: 50%;
+    margin: auto;
+}
+
+/* Responsive CSS queries */
+@media (max-width:1000px){
+    body{
+        padding: 0 3%;
+    }
+    .about-us-container{
+        text-align: center;
+    }
+    .form-container{
+        width:80%;
+    }
+    .row-width{
+        width:95%;
+        /* margin: auto; */
+    }
+    .col-text{
+        padding: 10px;
+    }
+    .fluid-container{
+        padding: 2% px;
+    }
+    .resize-container{
+        padding: 5px;
+    }
+    .col-text{
+        text-align: center;
+    }
+    .contact-card-images{
+        width: 40%;
+    }
+}

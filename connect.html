@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Site</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/2760c90596.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="" class="primary-color">
+        <div class="fluid-container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><i class="fab fa-rockrms my-logo"></i> _Ramyadeep</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="myworks.html">My Works</a>
+                        <a class="nav-item nav-link active" href="connect.html">Connect</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="secondary-color">
+        <div class="about-us-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="heading-text">
+                        Connect with me
+                    </h1>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="card">
+                        <img class="card-img-top contact-card-images" src="../images/phone.svg" alt="Card image phone">
+                        <div class="card-body">
+                            <h3>Give me a call</h3>
+                            <p>+911234567890</p>
+                            <p>+911234567890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="card">
+                        <img class="card-img-top contact-card-images" src="../images/concept.svg" alt="Card image project">
+                        <div class="card-body">
+                            <h3 class="card-text">Got a new Idea!</h3>
+                            <p class="card-text">Just send me your questions or concerns by starting a new case and
+                                I will give you the help you need.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="card">
+                        <img class="card-img-top contact-card-images" src="../images/whatsapp.svg" alt="Card image whatsapp">
+                        <div class="card-body">
+                            <h3>Whatsapp me</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="card">
+                        <img class="card-img-top contact-card-images" src="../images/email.svg" alt="Card image email">
+                        <div class="card-body">
+                            <h3>Write to me</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="primary-color">
+        <div class="form-container">
+            <h1 class="heading-text">Or leave me your details</h1>
+            <form action="mailto:ramyadip9777@gmail.com">
+                <div class="form-group">
+                    <label for="UserEmail">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="abc@xyz.com">
+                </div>
+                <div class="form-group">
+                    <label for="UserNumber">Email phone</label>
+                    <input type="number" class="form-control" id="phone" aria-describedby="emailHelp"
+                        placeholder="Enter phone">
+                </div>
+                <div class="form-group">
+                    <label for="about-idea">Describe your idea in a few words</label>
+                    <textarea name="about-idea" class="form-control" id="idea" cols="50" rows="5" placeholder="Keep it short and simple"></textarea>
+                    <small id="emailHelp" class="form-text text-muted">Keep it short and simple</small>
+                </div>
+                <button type="submit" class="btn btn-lg btn-block custom-button" style="margin-top: 30px;"
+                    onclick="handleData(this);">Submit</button>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your credentials with anyone
+                    else.</small>
+            </form>
+            <h3 class="para-text" style="margin-top: 30px; ">I will reach you</h3>
+        </div>
+    </section>
+    <section class="footer secondary-color">
+        <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fas fa-envelope"></i></a>
+        <p>© 2021 Ramyadeep Das. All rights reserved.</p>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
