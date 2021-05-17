@@ -31,11 +31,7 @@ span{
     font-weight: bold;
 }
 /* Intro Section */
-@media (max-width:1028px){
-    #intro{
-        text-align: center;
-    }
-}
+
 /* #intro{
     background-color: #141527;
 } */
@@ -146,18 +142,62 @@ span{
     body{
         padding: 0 3%;
     }
+    .navbar-brand{
+        font-size: 3rem;
+    }
+    .navbar-brand i{
+        font-size: 3rem;
+    }
+    .navbar-toggler{
+        font-size: 2.8rem;
+    }
+    .navbar-collapse{
+        padding-top: 20px;
+    }
+    .nav-item{
+        font-size: 2.5rem;
+        text-align: center;
+
+    }
+    .welcome-text{
+        font-size: 3.5rem;
+    }
+    .welcome-text-para{
+        font-size: 2.8rem;
+    }
+    .btn-mobile{
+        margin: 50px;
+        font-size: 2.7rem;
+    }
+    #skills{
+        text-align: center;
+        padding: 5%;
+    }
+    .resize-container{
+        /* padding: 50px auto; */
+    }
+    .heading-text{
+        font-size: 3rem;
+    }.para-text{
+        font-size: 2.7rem;
+    }
+    #intro{
+        text-align: center;
+    }
     .about-us-container{
         text-align: center;
     }
     .form-container{
         width:80%;
     }
-    .row-width{
-        width:95%;
-        /* margin: auto; */
+    .col-image{
+        width: 30%;
+    }
+    .col-md-12{
+        margin-bottom: 60px;
     }
     .col-text{
-        padding: 10px;
+        padding: px;
     }
     .fluid-container{
         padding: 2% px;
@@ -170,5 +210,11 @@ span{
     }
     .contact-card-images{
         width: 40%;
+    }
+    .footer{
+        font-size: 1.8rem;
+    }
+    .project-description{
+        font-size: 2.2rem;
     }
 }
